@@ -1,0 +1,273 @@
+﻿
+/*@font-face
+{
+	font-family: "Good Times";
+	src: url(/BluechipWeb/Style/GOODTIME.TTF);
+}*/
+
+
+@import url(/BluechipWeb/Style/GOODTIME.TTF) all;
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+img
+{
+	border-width: 0px;
+}
+/*----------------------------------------------------- GENERAL LINK STYLES --------------------------------------------*/
+
+a:link, a:visited
+{
+	color: #38382e;
+	text-decoration: none;
+	display: block;
+}
+
+a:hover
+{
+	display: block;
+	color: #e46713;
+	text-decoration: none;
+}
+
+/*----------------------------------------------------- WRAPPER & MAIN_BLOCK STYLES --------------------------------------------*/
+#main
+{
+	width: 969px;
+	height: 470px;
+	padding: 5px;
+}
+
+div#leftwrap /* Left panel of the layout */
+{
+	width: 715px;
+	height: auto;
+	float: left;
+	padding: 0px 5px 0px 0px;
+	border-right: solid 1px #dcdcdc;
+}
+
+div#rightwrap /* Right panel of the layout */
+{
+	width: 235px;
+	height: auto;
+	float: right;
+}
+
+/*--------------------------------------------- COMPANY AD & LINKS STYLES ------------------------------------------------------------------*/
+
+
+img#com_ad
+{
+	width: 425px;
+	height: 150px;
+	float: left;
+	margin: 0 0 5px 0;
+	border: 0px;
+}
+
+
+ul#links
+{
+	clear: both;
+	float: left;
+	padding: 0px;
+	list-style-type: none;
+	margin: 0px;
+	width:427px;
+}
+
+ul#links li
+{
+	float: left;
+	margin: 0px 1px 0px 0px;
+	background-image: url(../images/left_bot_ad_bg.png);
+	background-repeat: no-repeat;
+	width: 105px;
+	height: 53px;
+	text-align:center;
+	padding: 12px 0 5px 0px;
+	font-weight:bold;
+	color:#444444;
+}
+
+.head 
+{
+	letter-spacing:0.1em;
+	font-family:Tahoma;
+	text-transform:uppercase;
+	font-size:9px;
+	font-weight:bold;
+	
+}
+
+ul#links li a:link ,ul#links li a:visited
+{
+	color:#5f5f5f;
+	text-decoration:none;
+	display:block;
+	padding:10px;
+	font-size:11px;
+}
+
+ul#links li a:hover
+{
+	color:#f4f4f4;
+	
+}
+
+ul#links li:hover
+{
+	color:#ffffff;
+	background-image: url(../images/left_bot_ad_bg_hover.png);
+	background-repeat: no-repeat;
+}
+
+
+/*--------------------------------------------- PORTFOLIO STYLES ------------------------------------------------------------------*/
+
+div#portfolio
+{
+	float: right;
+	width: 262px;
+	height: 80px;
+	padding: 25px 2px 25px 20px;
+	background-image: url(../images/right_panel.png);
+	background-repeat: no-repeat;
+	margin: 0 0 10px 0px;
+	font-family:Tahoma;
+	color:#5f5f5f;
+	font-size:12px;
+	letter-spacing:0.1em;
+	font-weight:bold;
+	}
+
+div#portfolio h4
+{
+	color: #183883;
+	font-size: 16px;
+	margin:10px auto 0px auto;
+	font-variant:small-caps;
+	font-family: "Good Times" , Georgia;
+}
+
+div#portfolio a:link, div#portfolio a:visited
+{
+	text-align: right;
+	color: #2e2e2e;
+	margin-top:27px;
+	font-family: "Good Times" , Georgia;
+	padding: 0px 10px 2px;
+}
+
+div#portfolio a:hover
+{
+	color: #e46713;
+}
+
+/*------------------------------------------------------------NOTES STYLES ---------------------------------------------------------------*/
+
+.note
+{
+	background-image: url(../images/note.png);
+	background-repeat: no-repeat;
+	float: left;
+	height: 80px;
+	width: 82px;
+	margin: 0px 0px 5px 6px;
+	color: White;
+	padding-top:5px;
+	padding-left:8px;
+	list-style-type: none;
+	
+
+}
+
+.first
+{
+	background-color: #c4512c;
+}
+
+.second
+{
+	background-color:#2f6fb6;
+}
+
+.third
+{
+	background-color: #55772d;
+}
+
+ul li.note a:link, ul li.note a:visited
+{
+	color:#5f5f5f;
+	font-weight:bold;
+	margin:8px auto 0px auto;
+	
+}
+
+
+
+/*-------------------------------------------------------STYLES FOR BOTTOM LEFT BLOCKS--------------------------------------------------------------------------------*/
+div#botleft
+{
+	width: 100%;
+	clear: both;
+	height: 170px;
+	border-top: solid 1px #cccccc;
+	margin-top: 5px;
+}
+
+div#botleft .sub
+{
+	
+	margin:10px 0px 5px 20px;
+	float: left;
+	padding: 4px;
+}
+
+div#botleft .sub h5
+{
+	font-family: Arial;
+	font-size: small;
+	font-weight: 700;
+	color: #183883;
+	border-bottom: solid 2px #e46713;
+	padding: 2px;
+	margin-bottom: 2px;
+	vertical-align: top;
+}
+
+table#botleft .sub h5
+{
+	font-family: Arial;
+	font-size: small;
+	font-weight: 700;
+	color: #183883;
+	border-bottom: solid 2px #e46713;
+	padding: 2px;
+	margin-bottom: 2px;
+	vertical-align: top;
+}
+
+.line
+{
+	padding: 7px 0px;
+	border-bottom: solid 1px #dcdcdc;
+	display: block;
+}
+
+/****************************************** GENERAL STLYES ***********************************/
+
+.mar
+{
+	margin: 0 auto;
+}
+
+.cen
+{
+	text-align: center;
+}

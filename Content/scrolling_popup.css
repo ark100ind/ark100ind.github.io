@@ -1,0 +1,57 @@
+﻿ 
+  div.postit
+  {
+      visibility:hidden;
+      background:#E0E9F8; 
+      border-right:1px solid #455690; 
+      border-bottom:1px solid #455690; 
+      border-left:1px solid #B9C9EF; 
+      border-top:1px solid #B9C9EF; 
+      position:absolute; 
+   /*  position :fixed;  */     
+      z-index:9999;  
+  }
+  
+  div.title
+  {
+      cursor:default; 
+      display:block; 
+      position:absolute; 
+      left:2px; 
+      top:2px; 
+      height:14px; 
+      font:11px arial,sans-serif; 
+      color:#1F336B; 
+      text-decoration:none;
+      background:#E0E9F8; 
+  }
+  
+  div.content
+  {
+      display:block; 
+      border-left:1px solid #728EB8; 
+      border-top:1px solid #728EB8;
+      border-bottom:1px solid #B9C9EF; 
+      border-right:1px solid #B9C9EF;
+      padding:2px; 
+      overflow:hidden; 
+      text-align:center;
+      position:absolute; 
+      left:2px; 
+      top:20px; 
+      background:#E0E9F8; 
+  }
+  
+  span.spantitle
+  {
+      position:absolute; 
+      right:0px; 
+      top:0px; 
+      cursor:pointer; 
+      color:#728EB8; 
+      font:bold 12px arial,sans-serif; 
+      position:absolute; 
+      top:2px; 
+      right:3px;
+  }
+  

@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Content/bootstrap.min.css" />
+    <script src="Scripts/jquery-3.0.0.min.js" type="text/javascript"></script>
+    <script src="Scripts/bootstrap.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <style>
+        /*Code to change color of active link*/
+        .navbar-nav li a:hover, .navbar-nav > .active > a {
+            color: #fff !important;
+            background-color: #f4511e !important;
+            background-image: none !important;
+        }
+    </style>
+</head>
+<body>
+ 
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a style="font-size: 25px; color: black; font-weight: bold; padding-left: 100px" class="navbar-brand" href="#">Mumbai Tourism</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav" style="padding-left:50px;color:black">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Main.html" style="color:black;font-weight:bold">HOME <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item" style="padding-left: 50px">
+                        <a class="nav-link" style="color:black;font-weight:bold" href="attraction.html">ATTARACTION</a>
+                    </li>
+                    <li class="nav-item" style="padding-left: 50px">
+                        <a class="nav-link" style="color:black;font-weight:bold" href="festivalPage.html">FESTIVAL</a>
+                    </li>
+                    <li class="nav-item" style="padding-left: 50px">
+                        <a class="nav-link" style="color:black;font-weight:bold" text-white" href="food.html">FOOD</a>
+                    </li>
+                    <li class="nav-item" style="padding-left: 50px">
+                        <a class="nav-link" style="color:black;font-weight:bold" href="holyplaces.html">HOLY PLACES </a>
+
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div>
+            <div>
+
+                <div class="card">
+                    <div class="card-header bg-info" align="center"><h5>Haji Ali Dargah, Mumbai</h5></div>
+                    <div class="card-body">
+
+                        <div class="row">
+                            <div class="col" align="center">
+                                <img src="Images/Haji-Ali.jpg" width="60%" />
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="container" style="font-weight:bold">
+
+                        How about taking a trip with your family to one of the most popular religious shrines in Mumbai, built right in the middle of the Arabian Sea? Yes, we are talking about Haji Ali Dargah that houses the tomb of Sayed Peer Haji Ali Shah Bukhari. This grand edifice is made of white marbles and exemplifies the Indo-Islamic style of architecture. A walk through the causeway that connects the Dargah to the Lala Rajput Rai Marg is the main attraction of this place. Feel the spirituality of this place with your dear ones while enjoying a panoramic view of the deep blue waters! I give the place, rank no.4 among all the best places to visit in Mumbai.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="card">
+                <div class="card-header bg-warning" align="center"><h5>Siddhivinayak Temple, Mumbai</h5></div>
+                <div class="card-body">
+
+                    <div class="row">
+                        <div class="col" align="center">
+                            <img src="Images/Siddhivinayak-Temple.jpg" width="40%" />
+                        </div>
+
+                    </div>
+                </div>
+                <div class="container" style="font-weight:bold">
+
+                    one of the most frequented temples in Mumbai, the Siddhivinayak Temple is dedicated to Lord Ganesh. Devotees from across India including famous personalities from Bollywood and sports throng the temple to seek the blessings of Siddhivinayak Ganapati. The auspicious idol of Lord Ganesha is carved out in a single black stone with the trunk bent towards right making it one-of-its-kind. You can plan a visit to this temple with your family for an enriched spiritual experience.
+
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header bg-secondary" align="center"><h5>Shri Mahalakshmi Temple</h5></div>
+            <div class="card-body">
+
+                <div class="row">
+                    <div class="col" align="center">
+                        <img src="Images/Shri-Mahalakshmi-Temple.jpg" width="40%" />
+                    </div>
+
+                </div>
+            </div>
+            <div class="container" style="font-weight:bold">
+
+                Built in 1831 by a Hindu merchant named Dhakji Dadaji, this beautiful temple attracts numerous devotees daily, and more so on Diwali and Navaratra. On these two occasions, Shri Mahalakshmi is believed to come alive and grant the wishes of her worshippers. The other two deities housed here are Shri Mahasaraswati and Shri Mahakali. The vernacular domestic architecture of the temple and its unique surroundings, dotted with sweet and flower shops, make Mahalakshmi Temple an integral part of Maharashtra tourism.
+
+
+
+
+            </div>
+            <script>
+                $(document).ready(function () {
+                    $("ul.navbar-nav > li").click(function (e) {
+                        $("ul.navbar-nav > li").removeClass("active");
+                        $(this).addClass("active");
+                    });
+                });
+            </script>
+        </div>
+
+        <br
+        <br
+        <br
+
+</body>
+</html>

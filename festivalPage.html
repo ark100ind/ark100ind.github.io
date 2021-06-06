@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Content/bootstrap.min.css" />
+    <script src="Scripts/jquery-3.0.0.min.js" type="text/javascript"></script>
+    <script src="Scripts/bootstrap.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <style>
+        /*Code to change color of active link*/
+        .navbar-nav li a:hover, .navbar-nav > .active > a {
+            color: #fff !important;
+            background-color: #f4511e !important;
+            background-image: none !important;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a style="font-size: 25px; color: black; font-weight: bold; padding-left: 100px" class="navbar-brand" href="#">Mumbai Tourism</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav" style="padding-left:50px;color:black">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Main.html" style="color:black;font-weight:bold">HOME <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item" style="padding-left: 50px">
+                        <a class="nav-link" style="color:black;font-weight:bold" href="attraction.html">ATTARACTION</a>
+                    </li>
+                    <li class="nav-item" style="padding-left: 50px">
+                        <a class="nav-link" style="color:black;font-weight:bold" href="festivalPage.html">FESTIVAL</a>
+                    </li>
+                    <li class="nav-item" style="padding-left: 50px">
+                        <a class="nav-link" style="color:black;font-weight:bold" text-white" href="food.html">FOOD</a>
+                    </li>
+                    <li class="nav-item" style="padding-left: 50px">
+                        <a class="nav-link" style="color:black;font-weight:bold" href="holyplaces.html">HOLY PLACES </a>
+
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="card">
+            <div class="card-header bg-info" align="center"><h5>Lalbaugcha Raja</h5></div>
+            <div class="card-body">
+
+                <div class="row">
+                    <div class="col" align="center">
+                        <img src="Images/lalbag sa raja 2020.jpg" width="40%" />
+                    </div>
+
+                </div>
+            </div>
+            <div class="container" style="font-weight:bold">
+
+                Lalbaugcha Raja (meaning: The King of Lalbaug) is the sarvajanik (public) Ganesha idol kept at Lalbaug, a locality in Mumbai in the Indian state of Maharashtra, during the Ganesh Chaturthi festival. The idol is kept for public display for 11 days; thereafter it is immersed in the Arabian sea at Girgaon Chowpatty on the auspicious day of Anant Chaturdashi.
+
+                It is believed that this idol of Ganesha is Navasacha Ganpati (Marathi: नवसाचा गणपती) (which means the "one who fulfils all wishes") and hence over 1.5 million people visit this Ganesh Pandal daily during the 10-day Ganesha festival.
+
+
+            </div>
+        </div>
+    </div>
+        <div>
+
+        </div>
+        <script>
+            $(document).ready(function () {
+                $("ul.navbar-nav > li").click(function (e) {
+                    $("ul.navbar-nav > li").removeClass("active");
+                    $(this).addClass("active");
+                });
+            });
+        </script>
+        <br
+        <br
+        <br
+
+</body>
+</html>

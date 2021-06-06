@@ -1,0 +1,643 @@
+﻿body{
+	
+	margin:0px 0px;
+	padding:0px 0px;
+	font-family:arial;
+	font-size:11px;	
+	}
+
+.Text{
+	font-family:arial;
+	font-size:12px;
+	color:#868788;
+	}
+.Text1{
+	font-family:arial;
+	font-size:11px;
+	color:#868788;
+	}
+
+.Text2{
+	font-family:arial;
+	font-size:11px;
+	color:#284f85;
+	}
+.Text3{
+	font-family:arial;
+	font-size:11px;
+	color:#5a7bbd;
+	}
+
+	
+.MfImage{
+	background-image:url(images/MFImg.gif);
+	background-position:bottom;
+	background-position:right;
+	background-repeat:no-repeat;
+	}
+.combo{
+	border:1px solid #9A9A9A;
+	}
+	
+/* Create New Css Here */	
+	
+.tickerbluetext {color:#023C90; font-family:Arial; font-size:11px;}
+.tickerRedText {color:#FF0100; font-family:Arial; font-size:11px; font-weight:bold;}
+.tickerGreenText {color:#22A700; font-family:Arial; font-size:11px; font-weight:bold;}	
+	
+.unselTab
+{
+	font-family:Arial; 
+	font-size:11px; 
+	font-weight:bold; 
+	color:#FFFFFF;   
+	text-align:center; 
+	vertical-align:middle; 
+	padding-bottom:2px;
+	cursor:pointer;
+	background-color:#B7B7B7;
+}
+.selTab
+{
+	font-family:Arial; 
+	font-size:11px; 
+	font-weight:bold; 
+	color:#000000;
+	text-align:center; 
+	vertical-align:middle;
+	padding-bottom:2px;
+	cursor:default;
+	background-color:#B7B7B7;
+}
+
+.unselChartTab
+{
+	font-family:Arial; 
+	font-size:11px; 
+	font-weight:bold; 
+	color:#A58A8A;   
+	text-align:center; 
+	vertical-align:middle; 
+	padding-bottom:2px;
+	cursor:pointer;
+	background-color:#FFFFFF;
+}
+
+.selChartTab
+{
+	font-family:Arial; 
+	font-size:11px; 
+	font-weight:bold; 
+	color:#ED6715;
+	text-align:center; 
+	vertical-align:middle;
+	padding-bottom:2px;
+	cursor:default;
+	background-color:#FFFFFF;
+}
+	
+.NewsDate
+{
+    font-family:Arial;
+    font-weight:bold;
+    font-size:11.5px;
+    color:#597CBE;
+}	
+
+.Newstext
+{
+    font-family:Arial;
+    font-weight:normal;
+    font-size:11px;
+    color:#555555;
+    text-decoration:none;
+}
+
+.NormalText
+{
+    font-family:Arial;
+    font-weight:bold;
+    font-size:12px;
+    color:#868788;
+    text-decoration:none;
+}
+
+.ColHeadL
+{
+    font-family:Arial;
+    font-weight:bold;
+    font-size:11px;
+    text-align:left;
+    padding-left:10px;
+    color:#5C7BBC;
+    border-bottom:solid 1px #8A8A8A;
+}
+.ColHeadR
+{
+    font-family:Arial;
+    font-weight:bold;
+    font-size:11px;
+    text-align:right;
+    color:#5C7BBC;
+    border-bottom:solid 1px #8A8A8A;
+}
+.ColHeadC
+{
+    font-family:Arial;
+    font-weight:bold;
+    font-size:11px;
+    text-align:center;
+    color:#5C7BBC;
+    border-bottom:solid 1px #8A8A8A;
+}
+
+.ColDataL
+{
+    font-family:Arial;
+    font-weight:normal;
+    font-size:11px;
+    color:#555555;
+    text-align:left;
+    text-decoration:none;
+    padding-left:10px;
+    border-bottom:solid 1px #D9D9D9;
+}
+
+.ColDataC
+{
+    font-family:Arial;
+    font-weight:normal;
+    font-size:11px;
+    color:#555555;
+    text-align:center;
+    text-decoration:none;
+    border-bottom:solid 1px #D9D9D9;
+}
+
+.ColDataR
+{
+    font-family:Arial;
+    font-weight:normal;
+    font-size:11px;
+    color:#555555;
+    padding-right:5px;
+    text-align:right;
+    text-decoration:none;
+    border-bottom:solid 1px #D9D9D9;
+}
+.Pointer
+{
+	cursor:pointer;  
+}
+.scrollbarNR
+{
+	
+	scrollbar-arrow-color: #E46713;	
+	scrollbar-arrow-width:14px;		
+	scrollbar-base-color: #FFFFFF;
+	scrollbar-darkshadow-color: #FFFFFF;
+	scrollbar-face-color: #FFFFFF;
+	scrollbar-highlight-color: #E46713;
+	scrollbar-shadow-color: #E46713;
+	scrollbar-track-color:#FFFFFF;	
+}
+.HeadingText
+{
+	FONT-WEIGHT: bold;	FONT-SIZE: 15px;	COLOR: #E46812;	FONT-FAMILY: Arial, Verdana	
+}
+.HeadingText1
+{
+	FONT-WEIGHT: bold;	FONT-SIZE: 12px;	COLOR: #E46812;	FONT-FAMILY: Arial, Verdana	
+}
+.HeadingTextBlue
+{
+	FONT-WEIGHT: bold;	FONT-SIZE: 15px;	COLOR: #173783;	FONT-FAMILY: Arial, Verdana	
+}
+.controls
+{
+	font-family:Arial;
+	font-size:11px;
+	color:#525252;
+	
+}
+.NoData
+{
+  font-family:Arial,Verdana;
+  font-size:10px;
+  color:#EF0000;
+  text-align:center;
+}
+
+.NormText
+{
+	font-family:Arial;
+	color: #FFFFFF; 
+	font-size:11px; 
+	font-weight:bold; 
+}
+.NormText1
+{
+	font-family:Arial;
+	color: #525252; 
+	font-size:11px; 
+	font-weight:bold; 
+}
+.NormText2
+{
+	font-family:Arial;
+	color: #525252; 
+	font-size:11px; 
+	font-weight:normal; 
+}
+.statictxt
+	{
+		font-family:Arial,Verdana;
+		color: #26448A; 
+		font-size:11px; 
+		font-weight:normal; 
+		font-weight:bold; 
+	}
+	.whitetext
+	{
+		font-family:Arial,Verdana;
+		color: #26448A; 
+		background-color:White;
+		font-size:11px; 
+		font-weight:normal; 
+	}
+.AbtUsText
+{
+	font-family:Arial,Verdana;
+	color: #7D7D7D; 
+	font-size:12px; 
+	font-weight:normal; 
+	line-height:20px;
+	text-align:justify;
+}
+.Homestatictxt13
+	{
+		font-family:Arial;
+		color: #001C63; 
+		font-size:15px; 
+		font-weight:normal; 
+		 
+	}
+	.Homestatictxt
+	{
+		font-family:Arial,Verdana;
+		color: #001E61; 
+		font-size:11px; 
+		font-weight:bold; 
+		 
+	}
+.paddleft
+{
+	padding-left:10px;
+}
+.Btn_css
+{
+	background:#E46713;
+	font-family:Arial,Verdana; 
+	font-size:11px;
+	height:20px; 
+	text-align:center;
+	color:#ffffff;
+	font-weight:bold;
+	border:solid 1px #E46713;	
+	cursor:pointer;
+}
+.bgBlue
+{
+	background-color:#173783; 
+}
+a
+{
+	text-decoration:none; 
+	color:#525252;
+}
+a.IndexLink, a.IndexLink:link, a.IndexLink:visited, a.IndexLink:active, a.IndexLink:focus
+{
+	color:#211C00;
+	font-family: Arial, Verdana, "ms sans serif";
+	font-size: 12px;
+	font-weight: normal;
+	width:19px;
+	cursor:pointer;
+	height:19px;
+	text-decoration:none;
+}
+.IndexLink
+{
+	color:#211C00;
+	font-family: Arial, Verdana, "ms sans serif";
+	font-size: 12px;
+	font-weight: normal;
+	width:19px;
+	cursor:pointer;
+	height:19px;
+	text-decoration:none;
+}
+.IndexLinkSel
+{
+	background-repeat:no-repeat;
+	color:#E46713;
+	font-family: Arial, Verdana, "ms sans serif";
+	font-size: 12px;
+	font-weight: bold;
+	width:19px;
+	height:19px;
+	cursor:default;
+	text-decoration:none;
+}
+
+a.IndexLinkSel, a.IndexLinkSel:link, a.IndexLinkSel:visited, a.IndexLinkSel:active, a.IndexLinkSel:focus
+{	
+	background-repeat:no-repeat;
+	color:#E46713;
+	font-family: Arial, Verdana, "ms sans serif";
+	font-size: 12px;
+	font-weight: bold;
+	width:19px;
+	height:19px;
+	cursor:default;
+	text-decoration:none;
+}
+/*Menu styles*/
+
+
+.MenuOn
+{
+	font-family:Arial,Verdana;
+	font-size:11px;
+	text-align:left;
+	font-weight:bold;
+	color:#E36612; 	   
+	border-bottom:solid 1px #DEE2ED;  
+	cursor:default;  
+}
+.MenuOff
+{
+	font-family:Arial,Verdana;
+	font-size:11px;
+	text-align:left;
+	font-weight:bold;
+	color:#163377; 	   
+	border-bottom:solid 1px #DEE2ED; 
+	cursor:pointer; 
+}
+
+
+
+ 
+.mbb
+{
+	border-bottom:solid 1px #DEE2ED;
+}
+.spnOn
+{
+	display:inline;
+	vertical-align:middle;
+}
+.spnOff
+{
+	display:none;
+	vertical-align:middle;
+}
+.GridHeadLBlue
+{
+	background-color:#ACB8D0;
+	font-family:Arial,Verdana; 
+	font-size:11px;
+	font-weight:bold; 
+	color:#173783;
+	text-align:left;
+	padding-left:5px; 
+	height:22px;
+}
+.GridHeadL
+{
+	background-color:#E46713;
+	font-family:Arial,Verdana; 
+	font-size:11px;
+	font-weight:bold; 
+	color:#FFFFFF;
+	text-align:left;
+	padding-left:5px; 
+	height:22px;
+}
+.GridHeadC
+{
+	background-color:#E46713;
+	font-family:Arial,Verdana; 
+	font-size:11px;
+	font-weight:bold; 
+	color:#FFFFFF;
+	text-align:center;	
+	text-decoration:none;
+	height:22px;
+}
+a.GridHeadC
+{
+	background-color:#E46713;
+	font-family:Arial,Verdana; 
+	font-size:11px;
+	font-weight:bold; 
+	color:#FFFFFF;
+	text-align:center;
+	text-decoration:none;
+	height:22px;
+}
+a.GridHeadC:link, a.GridHeadC:visited, a.GridHeadC:active, a.GridHeadC:focus
+{
+	background-color:#E46713;
+	font-family:Arial,Verdana; 
+	font-size:11px;
+	font-weight:bold; 
+	color:#FFFFFF;
+	text-align:center;
+	text-decoration:none;
+	
+}
+a.GridHeadC:hover
+{
+	text-decoration:none;
+}
+.GridDataL
+{
+	
+	font-family:Arial,Verdana; 
+	font-size:11px;
+	color:#525252;
+	text-align:left;
+	padding-left:5px; 
+	border-bottom:solid 1px #D9D9D9; 
+	height:24px;
+	vertical-align:middle; 
+}
+.GridDataC
+{
+	
+	font-family:Arial,Verdana; 
+	font-size:11px;
+	color:#525252;
+	text-align:center;	
+	border-bottom:solid 1px #D9D9D9;
+	height:24px;
+	vertical-align:middle;
+}
+.GridDataR
+{
+
+	font-family:Arial,Verdana; 
+	font-size:11px;
+	color:#525252;
+	text-align:right;
+	padding-right:5px; 
+	border-bottom:solid 1px #D9D9D9;
+	height:24px;
+	vertical-align:middle;
+}
+/*Menu styles End*/
+
+a.PageLink
+{
+	color:#000000;
+	background-color:Transparent;
+	font-family: arial, sans-serif;
+	font-weight:bold; 
+	font-size: 11px;
+	padding:0px 2px 0px 2px;
+	text-decoration: none;
+}
+a.PageLink:link, a.PageLink:visited, a.PageLink:active, a.PageLink:focus
+{
+	Font-Size:11px;
+	color:#E46713;
+	font-weight:bold;
+	background-color:Transparent;
+	font-family:arial, sans-serif;
+	text-align:left;
+	text-decoration:none;
+}
+.PageLink
+{
+	Font-Size:11px;
+	color:#E46713;
+	font-weight:bold;
+	background-color:Transparent;
+	font-family:arial, sans-serif;
+	text-align:right;
+	text-decoration:none;
+}
+a.PageLink:hover
+{
+	text-decoration:none;
+}
+
+.unselTab1
+{
+	font-family:Arial; 
+	font-size:11px; 
+	font-weight:bold; 
+	color:#FFFFFF;   
+	text-align:center; 
+	vertical-align:middle; 
+	padding-bottom:2px;
+	cursor:pointer;
+	background-color:#173783;
+}
+.selTab1
+{
+	font-family:Arial; 
+	font-size:11px; 
+	font-weight:bold; 
+	color:#FFFFFF;
+	text-align:center; 
+	vertical-align:middle;
+	padding-bottom:2px;
+	cursor:default;
+	background-color:#E46713;
+}
+
+ 	
+	
+/* ICRA MF */
+.Pad5L5R {padding:0px 5px 0px 5px;}
+.Pad5T5B {padding:5px 0px 5px 0px;}
+.Pad5 {padding:5px 5px 5px 5px;}
+.Pad10 {padding:5px 5px 5px 10px;}
+.HeadText{font-family: arial; font-weight:bold;  font-size: 11px; color: #333333;}
+.HeadText1{font-family: arial; font-weight:bold;  font-size: 12px; color: #333333;}
+.PagerR
+{
+	background-color:#C6C6C6;
+	font-family:Arial,Verdana; 
+	font-size:11px;
+	font-weight:bold; 
+	color:#E46713;
+	text-align:right;
+	padding-right:5px; 
+	height:22px;
+}
+.OrangeTextN 
+{	font-family:Arial,Verdana;	font-size:12px;	height:25px; font-weight:normal;
+	color:#E36612;	vertical-align:middle;	  	cursor:default;  
+}
+.OrangeTextB
+{	font-family:Arial,Verdana;	font-size:12px;	height:25px; font-weight:bold;
+	color:#E36612;	vertical-align:middle;	  	cursor:default;  
+}
+.GridDataLAlt
+{	
+	font-family:Arial,Verdana; 
+	font-size:11px;
+	color:#525252;
+	text-align:left;
+	padding-left:5px;
+	border-bottom:solid 1px #D9D9D9; 
+	height:24px;
+	vertical-align:middle; 
+	background-color:#F0F4FF;
+}
+.StaticText
+{
+	font-family: Tahoma;
+	line-height: 16px;
+	font-size: 70%;
+	margin: 0;
+}
+.imgHnd { cursor:pointer}
+.NormText3
+{
+	font-family:Arial;
+	color: #525252; 
+	font-size:18px; 
+	font-weight:normal; 
+}
+/* end of ICRA MF */	 
+.content {
+	TEXT-ALIGN: justify; LINE-HEIGHT: 17px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; COLOR: #313131
+}
+
+.blue-bold {
+	COLOR: #173385; FONT-WEIGHT: 700
+}
+.MesgText
+{
+	font-family:Arial;
+	color: #cc0000; 
+	font-size:11px; 
+	font-weight:bold;
+	
+}
+
+.GrayTextBold
+{
+	color:#E46713;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	
+}
+/* Copy from ICRA */
+

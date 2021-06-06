@@ -1,0 +1,21 @@
+﻿body
+{
+	margin: 0px 0px;
+	padding: 0px 0px;
+	font-family: arial;
+	font-size: 11px;
+}
+#main /*Main Div header+content+footer body*/
+{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2px;
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 100%;
+    overflow: hidden;
+    border-left: solid 1px #183780;
+    border-right: solid 1px #183780;
+    border-bottom: solid 1px #183780;
+    width: 975px; /*background: url('../Images/background-img.jpg');*/
+}

@@ -1,0 +1,138 @@
+
+/*////////////////////////////////WEBLOGIN STYLES///////////////////////////////////////*/
+*
+{
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	text-decoration: none;
+	line-height: 1.5em;
+}
+body
+{
+	font-family: Verdana;
+	font-size: 11px;
+	color: #3C3C3C;
+	width: 974px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+hr
+{
+	width: 974px;
+	text-align: left;
+}
+
+#wrap
+{
+	width: 974px;
+	border: solid 3px #183883;
+	border-bottom: solid 15px #183383;
+	border-top-color: #e46713;
+	margin: 0 auto;
+}
+
+
+a:link, a:visited
+{
+	color: #3C3C3C;
+	font-weight: bold;
+}
+
+a:hover
+{
+	color: #B35704;
+	font-weight: bold;
+}
+
+#lblMessage, #lblerror, #lblMsg
+{
+	font-size: x-small;
+	color: #cc0000;
+	font-weight: bold;
+	text-align: center;
+}
+
+h3
+{
+	color: #1c1c1c;
+	font-family: Verdana;
+	text-align: center;
+	width: 974px;
+	background-color: #f2f2f2;
+	letter-spacing: 0.1em;
+}
+
+h4
+{
+	color: #C26425;
+	font-family: Georgia;
+	text-align: center;
+	font-size: 1.3EM;
+	text-transform: uppercase;
+}
+h5
+{
+	font-family: Verdana;
+	color: #ffffff;
+	background-color: #183883;
+	text-transform: uppercase;
+	text-align:center;
+}
+
+
+
+/*all heading styles end here*/
+
+.subwrap
+{
+	padding: 5px;
+}
+
+
+
+#footer
+{
+	font-size: 10px;
+	text-align: center;
+}
+
+/* ALL SMALL GENERAL CLASSES THAT WILL BE USED ACROSS THE PROJECT*/
+
+.full-fluid
+{
+	width: 100%;
+}
+
+.fixed
+{
+	width: 974px;
+}
+
+
+.border
+{
+	border: double thick #D2D2D2;
+}
+
+
+.blue
+{
+	font-weight: bold;
+	color: #173385;
+}
+
+
+.bordersolid
+{
+	border: solid 1px #333333;
+}
+
+.pad
+{
+	padding: 5px;
+	font-variant:small-caps;
+
+	
+}
